@@ -1,0 +1,28 @@
+body#home img {
+    height: 8em;
+}
+
+body#about img {
+    float:right;
+    height:30em;
+    width:auto;
+}
+
+body#about p {
+    max-width: 40em;
+    padding-left: 3em;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+body#about h2 {
+    padding-left: 1em;
+}
+
+nav {
+    font-size:25px;
+}
+
+nav a {
+    color:teal;
+}
