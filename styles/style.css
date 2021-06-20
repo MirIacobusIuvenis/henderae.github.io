@@ -19,10 +19,7 @@ body#about h2 {
     padding-left: 1em;
 }
 
-nav {
+nav#topnav a {
     font-size:25px;
-}
-
-nav a {
     color:teal;
 }
