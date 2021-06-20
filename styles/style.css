@@ -1,4 +1,4 @@
-body#home img {
+img#avatar {
     height: 8em;
 }
 
@@ -19,7 +19,7 @@ body#about h2 {
     padding-left: 1em;
 }
 
-nav#topnav a {
+nav a {
     font-size:25px;
     color:teal;
 }
