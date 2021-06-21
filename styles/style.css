@@ -4,9 +4,35 @@ main > img {
     width:auto;
     padding: 1rem;
 }
+.column {
+    float:left;
+    width:40%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+main#resume h2 {
+    padding-left: 1rem;
+}
+
+main#resume h3 {
+    padding-left: 2rem;
+}
+
+main#resume h4 {
+    padding-left: 3rem;
+}
+
+main#resume li, main#resume p, main#resume ul {
+    padding-left: 4rem;
+}
 
 header img{
-    height: 3em;
+    height: 4rem;
     float: none;
 }
 
@@ -15,9 +41,8 @@ body#home h1 {
 }
 
 body#about p {
-    max-width: 40em;
+    max-width: 60rem;
     padding-left: 3rem;
-    font-size: 18px;
     line-height: 1.5;
 }
 
@@ -32,6 +57,11 @@ body {
     grid-template-rows: auto 1fr auto;
     text-align: justify;
     padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+body p {
+    padding-left: 2rem;
 }
 
 header {
@@ -53,6 +83,7 @@ nav a {
 
 main {
     grid-area: main;
+    font-size: 18px;
 }
 
 footer {
